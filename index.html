@@ -1,48 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Search Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .search-container {
-            text-align: center;
-        }
-        .search-box {
-            padding: 10px 20px;
-            width: 300px;
-            margin-top: -100px;
-            border-radius: 20px;
-            border: 1px solid #dfe1e5;
-            box-shadow: none;
-        }
-        .search-button {
-            padding: 10px 20px;
-            margin-top: 20px;
-            border-radius: 4px;
-            border: 1px solid #f2f2f2;
-            background-color: #f8f9fa;
-            cursor: pointer;
-        }
-        .search-button:hover {
-            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Worship Songs Collection</title>
+<style>
+  body { font-family: Arial, sans-serif; text-align: center; }
+  .container { max-width: 600px; margin: auto; }
+  input[type="search"] { width: 80%; padding: 10px; margin: 20px 0; }
+  ul { list-style: none; padding: 0; }
+  li { margin: 5px 0; }
+</style>
 </head>
 <body>
-    <div class="search-container">
-        <h1>Simple Search</h1>
-        <input type="text" class="search-box" placeholder="Search...">
-        <button class="search-button">Search</button>
-    </div>
+<div class="container">
+  <h1>Worship Songs Repository</h1>
+  <input type="search" placeholder="Search songs...">
+  <ul>
+    <!-- List of songs will go here -->
+  </ul>
+</div>
 </body>
 </html>

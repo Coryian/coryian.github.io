@@ -1,28 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>About Me</title>
-<style>
-body {
-    font-family: sans-serif;
-    text-align: center;
-    margin: 50px;
-}
-h1 {
-    color: #333;
-}
-p {
-    line-height: 1.6;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Search Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .search-container {
+            text-align: center;
+        }
+        .search-box {
+            padding: 10px 20px;
+            width: 300px;
+            margin-top: -100px;
+            border-radius: 20px;
+            border: 1px solid #dfe1e5;
+            box-shadow: none;
+        }
+        .search-button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #f2f2f2;
+            background-color: #f8f9fa;
+            cursor: pointer;
+        }
+        .search-button:hover {
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, I'm [Your Name]</h1>
-    <p>I'm a man in my 40s, navigating the exciting journey of life's second chapter.  
-       While I've reached a point where many might settle into routines, 
-       I'm embracing a spirit of adventure and continuous learning. </p>
-
-    <p>I'm excited to share my experiences and thoughts on this GitHub blog. 
-       Feel free to join me as I explore new ideas and embark on new endeavors!</p>
+    <div class="search-container">
+        <h1>Simple Search</h1>
+        <input type="text" class="search-box" placeholder="Search...">
+        <button class="search-button">Search</button>
+    </div>
 </body>
 </html>
